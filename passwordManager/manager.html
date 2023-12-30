@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Armour - Your Own Personal Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Access Armour</div>
+        <ul>
+            <!-- <li>Access Armour</li> -->
+            <li id="home"> </li>
+            <li class="box" id="about"> <a href="#aboutfooter"> About</a></li>
+            <li class="box" id="contact"> <a href="#contactfooter">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="separation"></div>
+    <div class="container">
+        WELCOME TO ACCESS ARMOUR!! - YOUR PERSONAL SECURE PASSWORD MANAGER
+        <div>
+            <h2>Your Passwords: <span id="alert">(COPIED!)</span> </h2>
+            <table class="allpwds">
+            </table>
+            <div class="separation"></div>
+            <h2>Add a New Password:</h2>
+            <form action="/submit" method="post" class="newpwd">
+                <label for="website" class="inputs">Website Name :</label>
+                <input type="text" id="website" class="whitecol" required>
+                <br><br><br>
+                <label for="username" class="inputs">Username :</label>
+                <input type="text" id="username" class="whitecol" required>
+                <br><br><br>
+                <label for="password" class="inputs">Password :</label>
+                <input type="password" id="password"class="whitecol" required>
+                <br><br><br>
+                <button type="submit">Submit Now</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="separation"></div>
+    
+    <div id="aboutfooter">
+        Welcome to ACCESS ARMOUR, your secure solution for managing and safeguarding your digital identity. In today's interconnected world, safeguarding your online presence is more crucial than ever. ACCESS ARMOUR offers a robust and user-friendly platform designed to keep your sensitive information protected while providing seamless access whenever and wherever you need it.
+        <img src="logo.png" alt="">
+    </div>
+
+    <div class="separation"></div>
+    
+    <div ><a href="#home" class="home">Home</a></div>
+    <div id="contactfooter">
+        <div class="footeritems">
+            <span>Call Us At :</span><br>
+            <span>Mail Us At :</span><br>
+            <span>Visit Us At :</span><br>
+        </div>
+        <div class="footeritems">
+            <span>8888319705</span><br> 
+            <span>jai_k@me.iitr.ac.in</span><br>
+            <span>Rajendra Bhavan, I.I.T. Roorkee, Roorkee, Haridwar, Uttarakhand - 247667</span>
+        </div>
+    </div>
+
+    <div class="separation"></div>
+    <script src="script.js"></script>
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "name": "Access Armour",
+    "version": "1.0.0",
+    "description": "Password MAnager",
+    "manifest_version": 3,
+    "author": "Jai Kulkarni",
+    "action":{
+        "default_popup": "manager.html",
+        "default_title": "Access Armour - Your Own Personal Password Manager"
+    }
+}
